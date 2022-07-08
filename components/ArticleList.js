@@ -6,7 +6,9 @@ const ArticleList = ({ articles }) => {
     return (
         <div className={articleSyle.grid}>
             {articles.map((article) => (
+
                 <ArticleItem key={article} article={article} />
+
             ))}
         </div>
     )
