@@ -1,7 +1,7 @@
 import styles from '../styles/Hero.module.scss';
 import Header from './Header';
 
-const Hero = ({ }) => {
+function Hero() {
     return (
         <section className={`section ${styles.hero}`}>
             <Header />

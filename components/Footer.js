@@ -1,9 +1,16 @@
-import React, { Component } from 'react'
+import styles from '../styles/Footer.module.scss';
 
-const Footer = () => {
+function Footer() {
     return (
-        <footer>
-            <address>Copy right 2022 | Kingdom Harves Ministries P.O. Box 40026 Blaine MN 55449 </address>
+        <footer id='footer' className={styles.footer}>
+            <p>Benjamin Karmon Sehkar Foundation Inc. is a nonprofit 501(c)(3) public charity (tax ID# 47-2420913).</p>
+            <ul className='flex flex-start justify-content-center border-left'>
+                <li><address>Address: P.O. Box 1292 Fortville, IN 46040</address></li>
+                <li><a href='tel:317-332-81427'>317-332-8142</a></li>
+                <li> <a target='_blank' rel="noreferrer" href='https://www.paypal.com/donate?token=yvKBWHo4bgIe1XPae3lYUep_R8oJiu6Tff-NgsoGyFsyxupVt-XNj6vr6X7B7m73PymiGX5opgTZ0Yxj'>DONATE</a></li>
+            </ul>
+            <p>©Copyright 2022</p>
         </footer>
     )
 }
+export default Footer;

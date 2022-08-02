@@ -1,0 +1,37 @@
+footer.footer{
+    width: 100%;
+    color:#fff;
+    background-color: #787878;
+    position: relative;
+    text-align: center;
+    white-space: pre-wrap;
+    padding: 2rem 2rem;
+    border:0;
+    line-height:1;
+    font-size: 1rem !important;
+    @media(min-width:768px){
+        padding: 4rem 0rem;
+    }
+    ul{
+        margin:0;
+        padding:0;
+        border:0;
+        li{
+            border-left: 2px solid #fff;
+            padding-left:1rem;
+            &:first-child{
+                border-left:0;
+            }
+            p,address,a{
+                font-size: 1rem;
+                font-weight: 400;
+                color:#fff;
+            }
+        }
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 400;
+        color:#fff;
+    }
+}

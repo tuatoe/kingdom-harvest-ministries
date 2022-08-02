@@ -1,13 +1,17 @@
 import Nav from './Nav';
+import Footer from './Footer';
 import styles from '../styles/Layout.module.scss'
 
-const Layout = ({ children }) => {
+function Layout({ children }) {
     return (
         <>
             <Nav />
-            <main className={styles.main}>
-                {children}
-            </main>
+            <div id='page-container'>
+                <main id='content-wrap' className={styles.main}>
+                    {children}
+                </main>
+                <Footer />
+            </div>
 
         </>
     )
