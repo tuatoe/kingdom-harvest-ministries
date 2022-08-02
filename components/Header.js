@@ -6,7 +6,7 @@ const Header = () => {
         <header className={`container ${styles.header}`}>
             <h2 className={styles.headerTitle}>Kingdom Harvest Ministries</h2>
             <h3 className={styles.headerSubTitle}>Inspiration, Training, Engagement.</h3>
-            <Link href={'/donate'} className='link'>DONATE</Link>
+            <Link href='https://www.paypal.com/paypalme/KingdomHarvestNow?country.x=US&locale.x=en_US' className='link'>DONATE</Link>
         </header>
     )
 }

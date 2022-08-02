@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
-
+import Image from 'next/image'
+// import img1 from 'https://images.unsplash.com/photo-1571799610292-935ff425ba12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80'
 const WomenMinistries = () => {
     <Head>
         <title>About</title>
@@ -15,6 +16,7 @@ const WomenMinistries = () => {
             <p>Helping women discover their
             purpose and destiny and walking in the abundant life provided in Jesus Christ is the core of the women’s
             ministries. Contact us to join our monthly Zoom meetings.</p>
+            {/* <Image width={100} height={100} className='img-responsive' src={img1} alt='women hugging with eye close' /> */}
         </div>
     )
 }

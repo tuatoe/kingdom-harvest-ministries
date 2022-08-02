@@ -1,13 +1,13 @@
 
 //use for custom title meta tags keywords
 import Link from 'next/link';
-import Head from 'next/head'
-import Hero from '../components/Hero'
-
+import Head from 'next/head';
+import Image from 'next/image';
+import Hero from '../components/Hero';
 
 const Home = ({ }) => {
   return (
-    <>
+    <div id='content-wrap'>
       {/* <Head>
         <title>Kingdom Harvest </title>
         <meta name='keywords' content='' />
@@ -18,10 +18,11 @@ const Home = ({ }) => {
           <h2 className='section-title'>About Us</h2>
           <p>
             Kingdom Harvest Ministries was started by Maudeline St Jean, in 2019 with the passion to
-            reach out to the spiritually lost, locally and internationally. This mission includes empowering believers
-            through teaching, preaching and living out the gospel in community and rekindling their passion to love
-            God and serve him faithfully.
+            reach out to the spiritually lost, locally and internationally.
           </p>
+          <p>This mission includes empowering believers
+          through teaching, preaching and living out the gospel in community and rekindling their passion to love
+            God and serve him faithfully.</p>
           <Link href='/about-us'>LEARN MORE</Link>
         </div>
       </section>
@@ -33,11 +34,6 @@ const Home = ({ }) => {
             Outreach to the youth is of major priority as we believe our youth have become the
             target of the circular world and anti-God movements. We believe God is raising up a generation of
             young men and women who would fight back and not accept the world’s philosophy, culture and ideas.
-          </p>
-          <p>
-            We are committed to inspiring, empowering and equipping our youth to be set apart for God and be the
-            catalyst of the move of God into the next generation of believers. Contact us to join our monthly Zoom
-            meetings.
           </p>
           <Link href='/youth-ministries'>LEARN MORE</Link>
         </div>
@@ -74,24 +70,31 @@ const Home = ({ }) => {
       <section className='section section-five'>
         <div className='container'>
           <h2 className='section-title'>Contact</h2>
-          <p> Please fill out this form to contact us with questions, prayer request and other needs:</p>
-          <ul>
-            <li>
-              <p className='uppercase'><strong>Phone</strong></p>
-              <a href='tel:612-842-7097'>612-842-7097</a>
-            </li>
-            <li>
-              <p className='uppercase'><strong>Email</strong></p>
-              <a href='mailto:kingdomharvestnow@yahoo.com'>kingdomharvestnow@yahoo.com</a>
-            </li>
-            <li>
-              <p className='uppercase'><strong>Mailing Address</strong></p>
-              <address> Kingdom Harves Ministries P.O. Box 40026 Blaine MN 55449</address>
-            </li>
-          </ul>
+          <p> Please fill out this form to contact us with questions, prayer request and other needs</p>
+          <form action='POST' data-netlify='true'>
+            <div className='fields'>
+              <div className='field'>
+                <input type='text' name='name' id='name' placeholder='Your name' required />
+              </div>
+              <div className='field'>
+                <input type='text' name='email' id='email' placeholder='Your email' required />
+              </div>
+              <div className='field'>
+                <textarea rows='7' name='message' id='message' placeholder='Your message' required></textarea>
+              </div>
+              <div className='field'>
+                <div data-netlify-recaptcha='true'></div>
+              </div>
+            </div>
+            <ul className='actions'>
+              <li>
+                <input type='submit' value='Send message' className='btn btn-primary' />
+              </li>
+            </ul>
+          </form>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 export default Home;
