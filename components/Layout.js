@@ -1,6 +1,7 @@
 import Nav from './Nav';
 import Footer from './Footer';
 import styles from '../styles/Layout.module.scss'
+
 function Layout({ children }) {
     return (
         <>
