@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image'
 import Link from 'next/link';
 import styles from '../styles/Nav.module.scss';
 import Hamburger from './Hamburger';
@@ -34,7 +35,9 @@ function Nav() {
     return (
         <nav className={styles.nav}>
             <h1 className={styles.logo}>
-                BKS
+                <Link href='/'>
+                    <Image src={logo} width={60} height={54} alt='Benjamin Karmon Sehkar Foundation' tabIndex='1' />
+                </Link>
             </h1>
             {windowWidth > targetWidth ? (
                 <ul>
