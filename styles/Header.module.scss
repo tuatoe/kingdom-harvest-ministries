@@ -5,11 +5,17 @@
 }
 
 .headerTitle{
-    font-size: 4rem;
     font-weight: 700;
+    font-size: 3rem;
+    @media(min-width:768px){
+      font-size: 4rem;
+    }
   }
   .headerSubTitle{
-    font-size: 4rem;
+    font-size: 3rem;
+    @media(min-width:768px){
+      font-size: 4rem;
+    }
     font-weight: 300;
     margin-bottom:2rem;
   }
