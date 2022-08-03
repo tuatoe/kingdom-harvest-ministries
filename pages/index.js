@@ -4,12 +4,12 @@ import Link from 'next/link';
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
-import alvinSehkar from '../public/asset/our-team-alvin-sehkar.jpg'
-import scottAllison from '../public/asset/our-team-dr-scott-allison.jpg'
-import zeamboDahnweih from '../public/asset/our-team-zeambo-dahnweih.jpg'
-import tobyEiler from '../public/asset/our-team-toby-eiler.jpg'
-import emmanuelMiatona from '../public/asset/our-team-emmanuel-miantona.jpg'
-import pahSuku from '../public/asset/our-team-pah-k-suku.jpg'
+import alvinSehkar from '../public/our-team-alvin-sehkar.jpg'
+import scottAllison from '../public/our-team-dr-scott-allison.jpg'
+import zeamboDahnweih from '../public/our-team-zeambo-dahnweih.jpg'
+import tobyEiler from '../public/our-team-toby-eiler.jpg'
+import emmanuelMiatona from '../public/our-team-emmanuel-miantona.jpg'
+import pahSuku from '../public/our-team-pah-k-suku.jpg'
 import ContactFrom from '../components/ContactFrom';
 
 const Home = ({ }) => {

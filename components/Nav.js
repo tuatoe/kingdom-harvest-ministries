@@ -3,7 +3,7 @@ import Image from 'next/Image';
 import Link from 'next/link';
 import styles from '../styles/Nav.module.scss';
 import Hamburger from './Hamburger';
-import logo from '../public/asset/bks_logo.png'
+import logo from '../public/bks_logo.png'
 
 function Nav() {
     const targetWidth = 767;
