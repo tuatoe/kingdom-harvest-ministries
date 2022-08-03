@@ -172,7 +172,10 @@ ul.unordered-list-style{
   opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 50px 80px;
+  padding:0;
+  @media(min-width:768px){
+    padding: 50px 80px;
+  }
   color:#fff;
   & .section-title{
     margin-top: 3rem;
@@ -196,7 +199,10 @@ ul.unordered-list-style{
   opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 50px 80px;
+  padding:0;
+  @media(min-width:768px){
+    padding: 50px 80px;
+  }
   color:#fff;
   & .section-title{
     margin-top: 3rem;
@@ -219,7 +225,10 @@ ul.unordered-list-style{
   opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 50px 80px;
+  padding:0;
+  @media(min-width:768px){
+    padding: 50px 80px;
+  }
   color:#fff;
   & .section-title{
     margin-top: 3rem;
