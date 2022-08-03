@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
-import alvinSehkar from '../public/our-team-alvin-sehkar.jpg'
+import alvinSehkar from '../public/our-team-alvin-sehkar-new.jpg'
 import scottAllison from '../public/our-team-dr-scott-allison.jpg'
 import zeamboDahnweih from '../public/our-team-zeambo-dahnweih.jpg'
 import tobyEiler from '../public/our-team-toby-eiler.jpg'
