@@ -3,19 +3,22 @@
     text-align: center;
     margin-top:40%;
     @media(min-width:768px) {
-      margin-top:10%;
+      margin-top:15%;
     }
 }
 
 .headerTitle{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-bottom:1rem;
     @media(min-width:768px){
       font-size: 4rem;
     }
   }
   .headerSubTitle{
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 1.25;
     @media(min-width:768px){
       font-size: 4rem;
     }

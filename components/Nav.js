@@ -36,7 +36,7 @@ function Nav() {
         <nav className={styles.nav}>
             <h1 className={styles.logo}>
                 <Link href='/'>
-                    <Image src={logo} width={60} height={54} alt='Benjamin Karmon Sehkar Foundation' tabIndex='1' />
+                    <Image src={logo} width={60} height={60} alt='Benjamin Karmon Sehkar Foundation' tabIndex='1' />
                 </Link>
             </h1>
             {windowWidth > targetWidth ? (
