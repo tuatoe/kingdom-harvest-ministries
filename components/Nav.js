@@ -72,7 +72,7 @@ function Nav() {
                                 <Link href='/contact' passHref><a onClick={toggle}>Contact</a></Link>
                             </li>
                             <li>
-                                <Link target='_blank' rel="noreferrer" href='https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l'><a onClick={toggle}>Donate</a></Link>
+                                <Link target='_blank' rel="noreferrer" passHref href='https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l'><a onClick={toggle}>Donate</a></Link>
                             </li>
                         </ul>
 
