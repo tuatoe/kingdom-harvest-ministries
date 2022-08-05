@@ -63,6 +63,7 @@ body {
     text-transform: uppercase;
     position: absolute;
     top: 60%;
+    left: 50%;
     left:0;
     padding:2rem;
     @media(min-width:768px){
@@ -72,6 +73,7 @@ body {
       padding:0;
     }
     transform: translateY(-50%);
+    transform: translateX(-50%);
     line-height: 1;
   }
 }
