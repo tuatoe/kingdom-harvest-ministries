@@ -15,9 +15,7 @@ function ContactFrom({ content }) {
                     <div className='field'>
                         <textarea rows='7' name='message' id='message' placeholder='Your message' required></textarea>
                     </div>
-                    <div className='field'>
-                        <div data-netlify-recaptcha='true'></div>
-                    </div>
+                    <div netlify-recaptcha></div>
                 </div>
                 <ul className='actions'>
                     <li>
