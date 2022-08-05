@@ -269,17 +269,26 @@ ul.unordered-list-style{
 #page-container {
   position: relative;
   min-height: 100vh;
+  & .container{
+    padding-bottom:10rem;
+    @media(min-width:768px){
+      padding-bottom:5rem;
+    }
+  }
 }
 
 #content-wrap {
-  padding-bottom: 15rem;    /* Footer height */
+  padding-bottom: 5rem;    /* Footer height */
+  // @media(min-width:768px){
+  //   height: 15rem; 
+  // }
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 15rem;         /* Footer height */
+  min-height: 4rem;         /* Footer height */
 }
 .btn{
   display: inline-block;
@@ -386,4 +395,29 @@ ul.team-roaster{
       padding:1rem 2rem;
      
   }
+}
+
+.btn-modal-close{
+  border:0;
+  background: transparent;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #2f5572;
+  -webkit-transform: scaleX(1.2);
+  transform: scaleX(1.2);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  cursor: pointer;
+  &:hover{
+    color: #df8f27;
+  }
+}
+.modal-head-section{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.ReactModal__Content{
+  padding:2rem 3rem !important;
+  padding-top: 1rem !important;
 }

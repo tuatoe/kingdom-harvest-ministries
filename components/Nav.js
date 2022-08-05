@@ -10,14 +10,14 @@ function Nav() {
     const [isOpen, setMenu] = useState(false);
     const [windowWidth, setWindowWidth] = useState()
     const links = [
-        { label: 'Home', path: '/' },
-        { label: 'About Us', path: '/about-us' },
-        { label: 'What we do', path: 'what-we-do' },
-        { label: 'How you can help', path: '/how-you-can-help' },
-        { label: 'Events', path: '/events' },
-        { label: 'Gallery', path: '/gallery' },
-        { label: 'Contact', path: '/contact' },
-        { label: 'Donate', path: 'https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l' },
+        { id: 1, label: 'Home', path: '/' },
+        { id: 2, label: 'About Us', path: '/about-us' },
+        { id: 3, label: 'What we do', path: 'what-we-do' },
+        { id: 4, label: 'How you can help', path: '/how-you-can-help' },
+        { id: 5, label: 'Events', path: '/events' },
+        { id: 6, label: 'Gallery', path: '/gallery' },
+        { id: 7, label: 'Contact', path: '/contact' },
+        { id: 8, label: 'Donate', path: 'https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l' },
     ];
     const toggle = e => {
         e.stopPropagation();
@@ -42,7 +42,7 @@ function Nav() {
             {windowWidth > targetWidth ? (
                 <ul>
                     {links.map(link =>
-                        <li key={link}>
+                        <li key={link.id}>
                             <Link href={link.path}>{link.label}</Link>
                         </li>
                     )}

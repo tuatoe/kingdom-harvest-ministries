@@ -6,6 +6,7 @@ footer.footer{
     text-align: center;
     white-space: pre-wrap;
     padding: 2rem 2rem;
+    padding-bottom:3rem;
     border:0;
     line-height:1;
     font-size: 1rem !important;
@@ -17,11 +18,17 @@ footer.footer{
         padding:0;
         border:0;
         li{
-            border-left: 2px solid #fff;
-            padding-left:1rem;
-            &:first-child{
-                border-left:0;
+            border-left: 0;
+            padding-left:0;
+
+            @media(min-width:768px){
+                border-left: 2px solid #fff;
+                &:first-child{
+                    border-left:0;
+                }
+                padding-left:1rem;
             }
+          
             p,address,a{
                 font-size: 1rem;
                 font-weight: 400;
