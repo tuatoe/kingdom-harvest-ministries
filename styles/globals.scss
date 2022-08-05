@@ -420,6 +420,9 @@ ul.team-roaster{
   margin-bottom: 3rem;
 }
 .ReactModal__Content{
-  padding:2rem 3rem !important;
+  padding:2rem !important;
+  @media(min-width:768px){
+    padding:2rem 3rem !important;
+  }
   padding-top: 1rem !important;
 }
