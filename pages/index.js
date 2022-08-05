@@ -338,7 +338,7 @@ To further his education, he enrolled at Trinity Christian College where he grad
       <section className='section section-six'>
         <div className='container'>
           <h2 className='section-title'>Contact</h2>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" action="POST" data-netlify="true">
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
