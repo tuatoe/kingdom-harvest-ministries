@@ -4,7 +4,7 @@ function ContactFrom({ content }) {
     return (
         <>
             <p>{content}</p>
-            <form action='POST' data-netlify='true'>
+            <form action='POST' data-netlify='true' name='bks-contact'>
                 <div className='fields'>
                     <div className='field'>
                         <input type='text' name='name' id='name' placeholder='Your name' required />

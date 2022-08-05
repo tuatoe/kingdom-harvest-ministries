@@ -189,7 +189,7 @@ const Home = ({ }) => {
                   <h1>Rhoda Zokunwon Joine</h1>
                   <button className='btn-modal-close' onClick={handleModalClose}>x</button>
                 </div>
-                <p>Rhoda Zokunwon Joine, was born in Monrovia, Liberia. She is the second of eight siblings. Ms. Joine studied Applied Sociology at Rosemont College. Upon graduation in 2008, she enrolled at Walden University to further her studies in pursue of graduate degree in Clinical Psychology. Ms. Rhoda works as a Family Therapist and Behavioral Specialist.</p>
+                <p>Rhoda Zokunwon Joine, was born in Monrovia, Liberia. She is the sixth of eight siblings. Ms. Joine studied Applied Sociology at Rosemont College. Upon graduation in 2008, she enrolled at Walden University to further her studies in pursue of graduate degree in Clinical Psychology. Ms. Rhoda works as a Family Therapist and Behavioral Specialist.</p>
                 <p>She has three beautiful Children. Samantha, Matthew, and Gabriel. One of her passions includes working with children. She currently serves as the director of the Children’s Department at the Redeem Church of Christ, RCCG in Allentown, PA. She has over 14 years of Event planning experience.</p>
 
               </Modal>
