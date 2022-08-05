@@ -42,7 +42,6 @@ const Home = ({ }) => {
       title: 'Founder',
       img: alvinSehkar,
       about: 'Alvin Sehkar is an advocate for underprivileged education and a social entrepreneur from Liberia.',
-      longBio: `Alvin Sehkar is an advocate for underprivileged education and a social entrepreneur from Liberia. Upon Mr. Alvin Sehkar's arrival to the United States in 2004, he made a promise to gratefully, proudly and gracefully tell his story. His has experienced the works and grace of God throughout his life. God manifested His will in his life and has brought him a long way. Now, he feels obliged to give back to the people of Liberia. With that conviction, he established a foundation in his late father's name, the Benjamin Karmon Sehkar (BKS™) Foundation, Inc.`,
       learnMore: () => handleclick
     },
     {
@@ -166,9 +165,9 @@ const Home = ({ }) => {
                   <button className='btn-modal-close' onClick={handleModalClose}>x</button>
                 </div>
                 <div>
-                  <p>Alvin Sehkar is an advocate for underprivileged education and a social entrepreneur from Liberia. Upon Mr. Alvin Sehkar's arrival to the United States in 2004, he made a promise to gratefully, proudly and gracefully tell his story. His has experienced the works and grace of God throughout his life. God manifested His will in his life and has brought him a long way. Now, he feels obliged to give back to the people of Liberia. With that conviction, he established a foundation in his late father's name, the Benjamin Karmon Sehkar (BKS™) Foundation, Inc.</p>
-                  <p>After losing his father during the Liberian Civil war in the early 1990s, Alvin's family fled to the Ivory Coast to seek refuge. Growing up as a refugee in the Ivory Coast with a widowed mother, Sehkar and his siblings' lives were marked with poverty and hardship. Sometimes, his mother would have nothing to offer them, and they would go to sleep hungry without a meal.</p>
-                  <p>Due to the hardship, and without financial Assistance or support, Sehkar withdrew from school on several occasions. Clothes and other basic human needs were scarce in their lives. Although Mr. Sehkar's early life was not easy, his faith in God remained constant during those tough times. With the help of a Catholic diocese in Kentucky, Alvin and his family had the opportunity to resettle in Owensboro, Kentucky. It was certainly a blessing, cultural shock and a life changing experience for them.</p>
+                  <p>Alvin Sehkar is an advocate for underprivileged education and a social entrepreneur from Liberia. Upon Mr. Alvin Sehkar&rsquo;s arrival to the United States in 2004, he made a promise to gratefully, proudly and gracefully tell his story. His has experienced the works and grace of God throughout his life. God manifested His will in his life and has brought him a long way. Now, he feels obliged to give back to the people of Liberia. With that conviction, he established a foundation in his late father&rsquo;s name, the Benjamin Karmon Sehkar (BKS&#8482;) Foundation, Inc.</p>
+                  <p>After losing his father during the Liberian Civil war in the early 1990s, Alvin&rsquo;s family fled to the Ivory Coast to seek refuge. Growing up as a refugee in the Ivory Coast with a widowed mother, Sehkar and his siblings&rsquo; lives were marked with poverty and hardship. Sometimes, his mother would have nothing to offer them, and they would go to sleep hungry without a meal.</p>
+                  <p>Due to the hardship, and without financial Assistance or support, Sehkar withdrew from school on several occasions. Clothes and other basic human needs were scarce in their lives. Although Mr. Sehkar&rsquo;s early life was not easy, his faith in God remained constant during those tough times. With the help of a Catholic diocese in Kentucky, Alvin and his family had the opportunity to resettle in Owensboro, Kentucky. It was certainly a blessing, cultural shock and a life changing experience for them.</p>
                   <p>After seeing the countless blessings and opportunities this beautiful country (USA) has to offer, pursuing education was his next plan. He enrolled at Kentucky Wesleyan College in Owensboro, Kentucky. His reading, writing and speaking skills challenged his success. Again, his faith in God, hard work, perseverance, tenacity and determination took him through. Gratefully, Mr. Sehkar was able to complete his studies within four years.</p>
                   <p>After graduating from college in 2008, he relocated to Noblesville, Indiana. He enrolled at Anderson University, where he graduated with an MBA on May 11, 2013. Mr. Sehkar is currently employed at Capital Group in Carmel, Indiana.</p>
                 </div>
@@ -276,7 +275,7 @@ const Home = ({ }) => {
                 </div>
 
                 <p>Mr. Emmanuel Miantona was born in Ganta, Nimba County, Liberia. He grew up in Saclepea, Nimba County. A small town located in the northern part of Liberia. He attended the United Liberia Inland Church Academy (ULICA) for part of his primary education.</p>
-                <p>He later moved to Monrovia to continue his primary education, but that didn't happen due to the civil unrest that broke up in the early 1990s. This unrest led to his family resettling in the Ivory Coast for several years until he and his family were granted the opportunity to travel to the United States on a resettlement program.</p>
+                <p>He later moved to Monrovia to continue his primary education, but that didn&rsquo;t happen due to the civil unrest that broke up in the early 1990s. This unrest led to his family resettling in the Ivory Coast for several years until he and his family were granted the opportunity to travel to the United States on a resettlement program.</p>
                 <p>Upon his arrival in the U.S, they settled in Southwest Philadelphia. He enrolled at the John Bartram high school and later enrolled at Southside Baptist Academy where he completed his 9th and 10th grade education. During that time, his parents decided to moved to Brooklyn Park, MN. He then enrolled at Park Center Senior High school where he completed his primary education in 2002.
 
 To further his education, he enrolled at Trinity Christian College where he graduated with a BA in Business in 2006.</p>
@@ -299,7 +298,7 @@ To further his education, he enrolled at Trinity Christian College where he grad
                   <h1>Pah K Suku Jr</h1>
                   <button className='btn-modal-close' onClick={handleModalClose}>x</button>
                 </div>
-                <p>Pah K Suku Jr, born in Liberia, West Africa. Currently resides in Maryland, USA. Works with the Metropolitan Police Department in Washington, DC as a Sergeant and also pastors a small non-denomination church, Freedom Christian Fellowship Ministries International, in Landover Maryland. He holds double degrees in Criminology and Criminal Justice and Sociology from the University of Maryland College Park. He's married to Frances Woods-Suku with four children; Hazel, Wendy-estelle and Joshua.</p>
+                <p>Pah K Suku Jr, born in Liberia, West Africa. Currently resides in Maryland, USA. Works with the Metropolitan Police Department in Washington, DC as a Sergeant and also pastors a small non-denomination church, Freedom Christian Fellowship Ministries International, in Landover Maryland. He holds double degrees in Criminology and Criminal Justice and Sociology from the University of Maryland College Park. He&rsquo;s married to Frances Woods-Suku with four children; Hazel, Wendy-estelle and Joshua.</p>
 
               </Modal>
             </li>
@@ -320,7 +319,7 @@ To further his education, he enrolled at Trinity Christian College where he grad
                 </div>
                 <p>Mr. Matthew Peelor was born in Reading, PA and grew up in the suburbs of Pittsburgh. In 10th grade he transitioned to a boarding school, The Linsly School, to finish High School where he played golf and ice hockey. </p>
                 <p>After graduating high school he moved to Florida to attend Florida Gulf Coast University (FGCU). In 2010, Matt graduated with his B.S. in Marketing. </p>
-                <p>In 2012, Matt was accepted at Stetson University College of Law where he graduated with his Juris Doctorate (J.D.) in 2015.  While not practicing law, Matt is passionate about helping others and strives to make a difference in other people’s lives through his leadership at Charles Schwab & Co. </p>
+                <p>In 2012, Matt was accepted at Stetson University College of Law where he graduated with his Juris Doctorate (J.D.) in 2015.  While not practicing law, Matt is passionate about helping others and strives to make a difference in other people&rsquo;s lives through his leadership at Charles Schwab & Co. </p>
                 <p>In his spare time, Matt enjoys spending time with his wife of almost 2 years, Lexie, and their dog, Lilly. He is an avid golfer and mountain biker, and has recently gotten back into off-road motorcycle riding after a 20-year hiatus.</p>
 
               </Modal>
