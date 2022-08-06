@@ -161,6 +161,9 @@ ul.unordered-list-style{
   background-color: rgb(245, 245, 245);
   color: rgb(51, 51, 51);
   min-height: 200px;
+  @media(min-width:768px){
+    height: 400px;
+  }
 }
 
 .section-two {
@@ -174,6 +177,7 @@ ul.unordered-list-style{
   background-attachment: fixed;
   padding:50px 0;
   @media(min-width:768px){
+    height: 400px;
     padding: 50px 80px;
   }
   color:#fff;
@@ -187,6 +191,9 @@ ul.unordered-list-style{
   color: rgb(51, 51, 51);
   min-height: 200px;
   opacity: 0.9;
+  @media(min-width:768px){
+    height: 400px;
+  }
 }
 
 .section-four {
@@ -200,6 +207,7 @@ ul.unordered-list-style{
   background-attachment: fixed;
   padding:50px 0;
   @media(min-width:768px){
+    height: 400px;
     padding: 50px 80px;
   }
   color:#fff;
@@ -212,6 +220,9 @@ ul.unordered-list-style{
   background-color: rgb(245, 245, 245);
   color: rgb(51, 51, 51);
   min-height: 200px;
+  @media(min-width:768px){
+    height: 400px;
+  }
 }
 
 .section-six {
@@ -225,6 +236,7 @@ ul.unordered-list-style{
   background-attachment: fixed;
   padding:50px 0;
   @media(min-width:768px){
+    height: 400px;
     padding: 50px 80px;
   }
   color:#fff;
