@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero'
 
 const Giving = () => {
     <Head>
-        <title>About</title>
+        <title>What we do</title>
         <meta name='keywords' content='what we do' />
     </Head>
     return (

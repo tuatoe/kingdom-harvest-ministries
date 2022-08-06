@@ -4,9 +4,9 @@ import Link from 'next/link';
 function Header() {
     return (
         <header className={`container ${styles.header}`}>
-            <h2 className={styles.headerTitle}>Equal Access to Quality Eduation</h2>
-            <h3 className={styles.headerSubTitle}>Empowerment Through Education</h3>
-            <Link className='donate' href='https://www.paypal.com/donate/?hosted_button_id=23X8Q6E7JW3YS'>DONATE NOW</Link>
+            <h2 className={styles.headerTitle}>Kingdom Harvest Ministries</h2>
+            <h3 className={styles.headerSubTitle}>Inspiration, Training, Engagement.</h3>
+            <Link className='donate' href='https://www.paypal.com/paypalme/KingdomHarvestNow?country.x=US&locale.x=en_US'>DONATE NOW</Link>
         </header>
     )
 }

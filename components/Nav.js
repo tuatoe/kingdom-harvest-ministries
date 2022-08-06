@@ -11,13 +11,12 @@ function Nav() {
     const [windowWidth, setWindowWidth] = useState()
     const links = [
         { id: 1, label: 'Home', path: '/' },
-        { id: 2, label: 'About Us', path: '/about-us' },
-        { id: 3, label: 'What we do', path: 'what-we-do' },
-        { id: 4, label: 'How you can help', path: '/how-you-can-help' },
-        { id: 5, label: 'Events', path: '/events' },
-        { id: 6, label: 'Gallery', path: '/gallery' },
+        { id: 2, label: 'About us', path: '/about-us' },
+        { id: 3, label: 'Youth ministries', path: 'youth-ministries' },
+        { id: 4, label: 'Women ministries', path: '/women-ministries' },
+        { id: 5, label: 'Giving', path: '/giving' },
         { id: 7, label: 'Contact', path: '/contact' },
-        { id: 8, label: 'Donate', path: 'https://www.paypal.com/donate/?hosted_button_id=23X8Q6E7JW3YS' },
+        { id: 8, label: 'Donate', path: 'https://www.paypal.com/paypalme/KingdomHarvestNow?country.x=US&locale.x=en_US' },
     ];
     const toggle = e => {
         e.stopPropagation();
@@ -36,7 +35,8 @@ function Nav() {
         <nav className={styles.nav}>
             <h1 className={styles.logo}>
                 <Link href='/'>
-                    <Image src={logo} width={60} height={60} alt='Benjamin Karmon Sehkar Foundation' tabIndex='1' />
+                    {/* <Image src={logo} width={60} height={60} alt='Benjamin Karmon Sehkar Foundation' tabIndex='1' /> */}
+                    Kingdom Harvest Ministries
                 </Link>
             </h1>
             {windowWidth > targetWidth ? (
@@ -51,8 +51,6 @@ function Nav() {
                 </>
             ) : (
                     <>
-                        {/* <button onClick={toggle} className='close'>X</button> */}
-
                         <ul className={`${styles.mobileNav} ${isOpen ? styles.isOpen : ''}`}>
                             <li>
                                 <Link href='/' passHref><a onClick={toggle}>Home</a></Link>
@@ -61,22 +59,19 @@ function Nav() {
                                 <Link href='/about-us' passHref><a onClick={toggle}>About Us</a></Link>
                             </li>
                             <li>
-                                <Link href='/what-we-do' passHref><a onClick={toggle}>What we do</a></Link>
+                                <Link href='/youth-ministries' passHref><a onClick={toggle}>Youth ministries</a></Link>
                             </li>
                             <li>
-                                <Link href='/how-you-can-help' passHref><a onClick={toggle}>How you can help</a></Link>
+                                <Link href='/women-ministries' passHref><a onClick={toggle}>Women ministries</a></Link>
                             </li>
                             <li>
-                                <Link href='/events' passHref><a onClick={toggle}>Events</a></Link>
-                            </li>
-                            <li>
-                                <Link href='/gallery' passHref><a onClick={toggle}>Gallery</a></Link>
+                                <Link href='/giving' passHref><a onClick={toggle}>Giving</a></Link>
                             </li>
                             <li>
                                 <Link href='/contact' passHref><a onClick={toggle}>Contact</a></Link>
                             </li>
                             <li>
-                                <Link target='_blank' rel="noreferrer" passHref href='https://www.paypal.com/donate/?hosted_button_id=23X8Q6E7JW3YS'><a onClick={toggle}>Donate</a></Link>
+                                <Link target='_blank' rel="noreferrer" passHref href='https://www.paypal.com/paypalme/KingdomHarvestNow?country.x=US&locale.x=en_US'><a onClick={toggle}>Donate</a></Link>
                             </li>
                         </ul>
 

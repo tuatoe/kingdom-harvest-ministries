@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero'
 
 const Gallery = () => {
     <Head>
-        <title>About</title>
+        <title>Gallery</title>
         <meta name='keywords' content='gallery' />
     </Head>
     return (

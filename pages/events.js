@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero'
 
 const YouthMinistries = () => {
     <Head>
-        <title>About</title>
+        <title>Events</title>
         <meta name='keywords' content='Events' />
     </Head>
     return (

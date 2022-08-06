@@ -5,7 +5,7 @@ import PageHero from '../components/PageHero'
 
 const Contact = () => {
     <Head>
-        <title>About</title>
+        <title>Contact us</title>
         <meta name='keywords' content='contact us' />
     </Head>
     return (
@@ -13,7 +13,7 @@ const Contact = () => {
             <PageHero title='Contact' />
             <div className='container'>
                 <h2 className='page-title'></h2>
-                <ContactFrom content='Please fill out this form and we will get in touch with you shortly.' />
+                <ContactFrom content='Please fill out this form to contact us with questions, prayer request and other needs' />
             </div>
         </>
     )

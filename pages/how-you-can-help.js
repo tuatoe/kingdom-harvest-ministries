@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero'
 
 const WomenMinistries = () => {
     <Head>
-        <title>About</title>
+        <title>How you can help</title>
         <meta name='keywords' content='How you can help' />
     </Head>
     return (
