@@ -426,3 +426,14 @@ ul.team-roaster{
   }
   padding-top: 1rem !important;
 }
+
+.donate{
+  background-color:#df8f27;
+  color:#fff;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  &:hover{
+    background-color: #b7741c;
+  }
+}

@@ -40,15 +40,19 @@ function Nav() {
                 </Link>
             </h1>
             {windowWidth > targetWidth ? (
-                <ul>
-                    {links.map(link =>
-                        <li key={link.id}>
-                            <Link href={link.path}>{link.label}</Link>
-                        </li>
-                    )}
-                </ul>
+                <>
+                    <ul>
+                        {links.map(link =>
+                            <li key={link.id}>
+                                <Link href={link.path}>{link.label}</Link>
+                            </li>
+                        )}
+                    </ul>
+                </>
             ) : (
                     <>
+                        {/* <button onClick={toggle} className='close'>X</button> */}
+
                         <ul className={`${styles.mobileNav} ${isOpen ? styles.isOpen : ''}`}>
                             <li>
                                 <Link href='/' passHref><a onClick={toggle}>Home</a></Link>

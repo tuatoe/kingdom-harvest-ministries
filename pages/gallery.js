@@ -5,7 +5,7 @@ import PageHero from '../components/PageHero'
 const Gallery = () => {
     <Head>
         <title>About</title>
-        <meta name='keywords' content='youth ministries' />
+        <meta name='keywords' content='gallery' />
     </Head>
     return (
         <>

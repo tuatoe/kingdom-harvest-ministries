@@ -5,6 +5,18 @@
     @media(min-width:768px) {
       margin-top:15%;
     }
+
+    a{
+        background-color:#df8f27;
+        color:#fff;
+        padding: .8rem 1rem;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        &:hover{
+          background-color: #b7741c;
+        }
+    }
 }
 
 .headerTitle{

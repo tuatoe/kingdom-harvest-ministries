@@ -6,7 +6,7 @@ import PageHero from '../components/PageHero';
 const About = () => {
     <Head>
         <title>About</title>
-        <meta name='keywords' content='web dev, programming' />
+        <meta name='keywords' content='About benjamin karmon sehkar foundation' />
     </Head>
     return (
         <>
