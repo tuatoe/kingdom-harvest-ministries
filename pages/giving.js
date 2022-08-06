@@ -22,7 +22,7 @@ const Giving = () => {
                 <p>The financial goal is to be accountable to God and man and that all staff will live in modesty, simplicity and contentedness as they function in their roles as leaders of the ministries they oversee.</p>
                 <h3 className='page-sub-title'>NOTE</h3>
                 <p>All funds donated are non-refundable Give today. You may mail gifts (cash or checks) to our address below: Kingdom Harvest Ministries Attn:Giving</p>
-                <ul>
+                <ul className='unordered-list-style'>
                     <li><strong>Address:</strong>Kingdom Harves Ministries P.O. Box 40026 Blaine MN 55449</li>
                     <li><strong>Cashapp:</strong>  $kingdomharvestnow</li>
                     <li><Link href='https://www.paypal.com/paypalme/KingdomHarvestNow?country.x=US&locale.x=en_US'>PayPal</Link></li>
