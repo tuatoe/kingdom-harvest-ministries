@@ -17,7 +17,7 @@ function Nav() {
         { id: 5, label: 'Events', path: '/events' },
         { id: 6, label: 'Gallery', path: '/gallery' },
         { id: 7, label: 'Contact', path: '/contact' },
-        { id: 8, label: 'Donate', path: 'https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l' },
+        { id: 8, label: 'Donate', path: 'https://www.paypal.com/donate/?hosted_button_id=23X8Q6E7JW3YS' },
     ];
     const toggle = e => {
         e.stopPropagation();
@@ -76,7 +76,7 @@ function Nav() {
                                 <Link href='/contact' passHref><a onClick={toggle}>Contact</a></Link>
                             </li>
                             <li>
-                                <Link target='_blank' rel="noreferrer" passHref href='https://www.paypal.com/donate?token=oDUhybjHmItL8BkUKfRkZkkXRakSIq7uMqhVESVx-RP-lS0uhHJiJ4DB00Hfsl-zkNUY9LCll1zRt31l'><a onClick={toggle}>Donate</a></Link>
+                                <Link target='_blank' rel="noreferrer" passHref href='https://www.paypal.com/donate/?hosted_button_id=23X8Q6E7JW3YS'><a onClick={toggle}>Donate</a></Link>
                             </li>
                         </ul>
 
