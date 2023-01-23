@@ -27,18 +27,18 @@ const Home = ({ }) => {
       <section className='section section-two'>
         <div className='container'>
           <h2 className='section-title'>YOUTH MINISTRIES</h2>
-          <p>Outreach to the youth is of major priority as we believe our youth have become the target of the circular world and anti-God movements. We believe God is raising up a generation of young men and women who would fight back and not accept the world's philosophy, culture and ideas.</p>
+          <p>Outreach to the youth is of major priority as we believe our youth have become the target of the circular world and anti-God movements. We believe God is raising up a generation of young men and women who would fight back and not accept the world&apos;s philosophy, culture and ideas.</p>
           <Link href='/what-we-do'>LEARN MORE ABOUT YOUTH MINISTRIES</Link>
         </div>
       </section>
 
       <section className='section section-three'>
         <div className='container'>
-          <h2 className='section-title'>WOMEN'S MINISTRIES</h2>
+          <h2 className='section-title'>WOMEN&apos;S MINISTRIES</h2>
           <p>
-            Women play a big role in our communities and face so many challenges. The women's ministries partners with women to experience God at a new level of encounter, engagement, and commitment to do exploits for God and engage in the kingdom agenda on the home and community fronts and to involvement in local and global initiatives.
+            Women play a big role in our communities and face so many challenges. The women&apos;s ministries partners with women to experience God at a new level of encounter, engagement, and commitment to do exploits for God and engage in the kingdom agenda on the home and community fronts and to involvement in local and global initiatives.
           </p>
-          <Link href='/how-you-can-help'>LEARN MORE ABOUT WOMEN'S MINISTRIES</Link>
+          <Link href='/how-you-can-help'>LEARN MORE ABOUT WOMEN&apos;S MINISTRIES</Link>
 
         </div>
       </section>
